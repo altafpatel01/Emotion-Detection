@@ -12,7 +12,7 @@ whisper_model = whisper.load_model("base")
 print("Loading Emotion Detection model...")
 emotion_model = joblib.load("model/emotion_model.pkl")
 
-# Recording parameters
+
 duration = 5  # seconds
 fs = 16000    # sampling rate
 
